@@ -1,4 +1,4 @@
-![433d6b08b630f051631c0188bbd5a3f9](https://github.com/user-attachments/assets/8d910da6-b354-41c4-a492-66dfa8f16176)# Orangpi-Desktop
+# Orangpi-Desktop
 Change XFCE to GNOME  
 
 将香橙派官方提供的系统转换成熟悉的原生Ubuntu系统风格
@@ -12,6 +12,8 @@ Change XFCE to GNOME
 下面这个方法目标是实现：使用Orangepi官方提供的系统时，无损的从XFCE转换成我们熟悉的GNOME桌面
 
 已在香橙派5 Ultra上实现官方Ubuntu20.04系统转换，理论上可以适配大部分香橙派开发板
+
+![433d6b08b630f051631c0188bbd5a3f9](https://github.com/user-attachments/assets/8d910da6-b354-41c4-a492-66dfa8f16176)
 
 ------------------------------------------------
 一、已经安装了XFCE，现在「额外」装上GNOME  
@@ -114,8 +116,7 @@ sudo aptitude install ubuntu-desktop   # 重复 4 的交互步骤
 sudo reboot
 在 gdm3 登录界面 → 齿轮 → 选 Ubuntu / Ubuntu on Wayland 即进入 GNOME
   
-祝安装顺利！
-![1ffe9196ee9def41a615bc0c1c6f534a](https://github.com/user-attachments/assets/7ef126f3-0e1c-4f74-9485-dd88989134e1)
+ # 祝安装顺利！
 
 
 
