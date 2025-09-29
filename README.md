@@ -1,4 +1,4 @@
-# Orangpi-Desktop
+![433d6b08b630f051631c0188bbd5a3f9](https://github.com/user-attachments/assets/8d910da6-b354-41c4-a492-66dfa8f16176)# Orangpi-Desktop
 Change XFCE to GNOME
 在使用香橙派5 ultra 过程中，使用不习惯香橙派官方提供的XFCE桌面
 Ubuntu 22.04及以上都有很好的系统适配，如项目 https://github.com/Joshua-Riek/ubuntu-rockchip
@@ -111,5 +111,8 @@ sudo reboot
 在 gdm3 登录界面 → 齿轮 → 选 Ubuntu / Ubuntu on Wayland 即进入 GNOME
   
 祝安装顺利！
+![1ffe9196ee9def41a615bc0c1c6f534a](https://github.com/user-attachments/assets/7ef126f3-0e1c-4f74-9485-dd88989134e1)
+
+
 
 
