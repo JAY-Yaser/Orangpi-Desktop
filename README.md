@@ -2,8 +2,8 @@
 Change XFCE to GNOME
 在使用香橙派5 ultra 过程中，使用不习惯香橙派官方提供的XFCE桌面
 Ubuntu 22.04及以上都有很好的系统适配，如项目 https://github.com/Joshua-Riek/ubuntu-rockchip
-但是大多为rk3588s的芯片或常用型号，我用的香橙派5 ultra，但是实测刷写Joshua-Riek提供的香橙派5 Plus的系统可以运行，正常使用，但是如风扇接口等小地方可能有问题。
-同时当前发展，大多适配都是Ubuntu22.04及以上系统
+
+但是大多为rk3588s的芯片开发板或常用型号的开发板（如我用的香橙派5 ultra项目上就没有提供原生Ubuntu系统，但是实测刷写Joshua-Riek提供的香橙派5 Plus的系统可以运行，正常使用，但是如风扇接口等小地方可能有问题），同时当前大多适配的都是Ubuntu22.04及以上系统
 
 下面这个方法目标是实现：使用Orangepi官方提供的系统时，无损的从XFCE转换成我们熟悉的GNOME桌面
 ##已在香橙派5 Ultra上实现官方Ubuntu20.04系统转换，理论上可以适配大部分香橙派开发板
