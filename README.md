@@ -51,7 +51,9 @@ Ubuntu 22.04及以上都有很好的系统适配，如项目 https://github.com/
 ------------------------------------------------
 三、问题及解决办法
 运行 sudo apt install ubuntu-desktop 出现如下报错：
+
 //
+
 orangepi@orangepi5ultra:~$ sudo apt install ubuntu-desktop
 Reading package lists... Done
 Building dependency tree       
@@ -66,8 +68,8 @@ The following packages have unmet dependencies:
  ubuntu-desktop : Depends: ubuntu-desktop-minimal but it is not going to be installed
                   Depends: ubuntu-session but it is not going to be installed
 E: Unable to correct problems, you have held broken packages.
-//
 
+//
 
 ### 1. 先更新索引并清理残留状态
 sudo apt update
@@ -77,7 +79,9 @@ sudo apt autoremove
 
 ### 2. 单独把被 “hold” 住的包放开
 sudo apt-mark showhold          # 查看哪些包被人工锁定
+
 如果有输出，例如 ubuntu-desktop-minimal
+
 sudo apt-mark unhold ubuntu-desktop-minimal ubuntu-session
 
 ### 3. 尝试一次性补装缺失的依赖
