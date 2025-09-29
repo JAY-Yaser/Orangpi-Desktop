@@ -16,10 +16,10 @@ Ubuntu 22.04及以上都有很好的系统适配，如项目 https://github.com/
    sudo apt update
 
 2. 安装GNOME核心会话+常用应用  
-   # 最小方案（约400 MB）  
+# 最小方案（约400 MB）  
    sudo apt install gnome-session gdm3 gnome-terminal  
 
-   # 完整方案（约1.3 GB，含LibreOffice、文本编辑、截图等）  
+# 完整方案（约1.3 GB，含LibreOffice、文本编辑、截图等）  
    sudo apt install ubuntu-desktop  
 
    安装过程中会弹出「选择显示管理器」蓝框，选gdm3（GNOME官方DM）即可；若打算继续用lightdm也可，但gdm3对GNOME锁屏/休眠更友好。
@@ -76,7 +76,7 @@ sudo apt autoremove
 
 ### 2. 单独把被 “hold” 住的包放开
 sudo apt-mark showhold          # 查看哪些包被人工锁定
-  # 如果有输出，例如 ubuntu-desktop-minimal
+# 如果有输出，例如 ubuntu-desktop-minimal
 sudo apt-mark unhold ubuntu-desktop-minimal ubuntu-session
 
 ### 3. 尝试一次性补装缺失的依赖
@@ -103,7 +103,7 @@ sudo aptitude install ubuntu-desktop   # 重复 4 的交互步骤
 
 ### 6. 装完验证
 sudo reboot
-  # 在 gdm3 登录界面 → 齿轮 → 选 Ubuntu / Ubuntu on Wayland 即进入 GNOME
+# 在 gdm3 登录界面 → 齿轮 → 选 Ubuntu / Ubuntu on Wayland 即进入 GNOME
   
 祝安装顺利！
 
