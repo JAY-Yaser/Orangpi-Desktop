@@ -35,8 +35,8 @@ Change XFCE to GNOME
    sudo reboot
 
 4. 在登录界面  
-   - 点击用户名 → 右下角齿轮 → 选「Ubuntu」或「Ubuntu on Wayland」 → 输入密码登录即进入GNOME。  
-   - 想回XFCE，同一齿轮里选「Xfce Session」即可。
+   点击用户名 → 右下角齿轮 → 选「Ubuntu」或「Ubuntu on Wayland」 → 输入密码登录即进入GNOME。  
+   想回XFCE，同一齿轮里选「Xfce Session」即可。
 
 ------------------------------------------------
 二、只想「彻底」换成GNOME，把XFCE相关包全部删掉  
